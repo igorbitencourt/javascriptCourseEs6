@@ -1,3 +1,4 @@
+console.log("Exercícios do Curso");
 console.log("-------- Constructor Function -------- ");
 // Crie uma função construtora de Pessoas
 // Deve conter nome, sobrenome e idade
