@@ -139,3 +139,40 @@ console.log(
   soma.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
 );
 limparNome(listaPrecos[1]);
+
+console.log("-------- Array -------- ");
+
+const comidas = ["Pizza", "Frango", "Carne", "Macarrão"];
+// Remova o primeiro valor de comidas e coloque em uma variável~
+let pizzaVar = comidas.shift();
+// Remova o último valor de comidas e coloque em uma variável
+let macarraoVar = comidas.pop();
+// Adicione 'Arroz' ao final da array
+comidas.push("Arroz");
+// Adicione 'Peixe' e 'Batata' ao início da array
+let peixeBatata = comidas.unshift("Peixe", "Batata");
+console.log(comidas);
+
+const estudantes = ["Marcio", "Brenda", "Joana", "Kleber", "Julia"];
+// Arrume os estudantes em ordem alfabética
+estudantes.sort();
+// Inverta a ordem dos estudantes
+estudantes.reverse();
+// Verifique se Joana faz parte dos estudantes
+let contemJoana = estudantes.includes("Joana");
+// Verifique se Juliana faz parte dos estudantes
+let contemJuliana = estudantes.includes("Juliana");
+
+console.log(estudantes);
+console.log(contemJoana);
+console.log(contemJuliana);
+
+const carros = ["Ford", "Fiat", "VW", "Honda"];
+// Remova o último carro, mas antes de remover
+// salve a array original em outra variável
+
+const carrosBackup = carros.slice();
+carros.pop();
+
+console.log(carros);
+console.log(carrosBackup);
