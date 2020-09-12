@@ -1,5 +1,7 @@
 console.log("Exercícios do Curso");
 console.log("-------- Constructor Function -------- ");
+//Para selecionar algum objeto da DOM usar document.querySelector
+
 // Crie uma função construtora de Pessoas
 // Deve conter nome, sobrenome e idade
 function Pessoa(nome, sobrenome, idade) {
