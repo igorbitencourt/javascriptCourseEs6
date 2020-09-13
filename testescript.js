@@ -246,4 +246,9 @@ const compras = [
   },
 ];
 
-const limparPrecos = compras.
+const totalCompras = compras.reduce((acumulador, item) => {
+  const limpaCompra = +item.preco.replace("R$ ", "").replace(",", ".");
+  return acumulador + limpaCompra;
+}, 0);
+
+console.log(totalCompras);
