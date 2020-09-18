@@ -269,7 +269,7 @@ const totalCaracteres = Array.prototype.reduce.call(
 
 console.log(totalCaracteres);
 
-// Crie uma função que retorne novos elementos
+// Crie uma função que retorne novos elementos.
 // html, com os seguintes parâmetros
 // tag, classe e conteudo.
 function criarElemento(tag, classe, conteudo) {
