@@ -41,6 +41,7 @@ function initAccordion() {
 }
 initAccordion();
 
+// Função para dar scrool suave nas imagens.
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
