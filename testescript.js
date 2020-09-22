@@ -179,7 +179,7 @@ carros.pop();
 console.log(carros);
 console.log(carrosBackup);
 
-console.log("--------------- Array e Iteração (---------------");
+console.log("--------------- Array e Iteração ---------------");
 
 // Selecione cada curso e retorne uma array
 // com objetos contendo o título, descricaoo,
