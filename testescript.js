@@ -202,8 +202,7 @@ const objetosCurso = arrayCursos.map((item) => {
 
 console.log(objetosCurso);
 
-// Retorne uma lista com os
-// números maiores que 100
+// Retorne uma lista com os números maiores que 100
 const numeros1 = [3, 44, 333, 23, 122, 322, 33];
 
 const numerosMaiores = numeros1.filter((item) => {
