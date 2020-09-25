@@ -318,7 +318,7 @@ Object.freeze(configuracao);
 
 // Liste o nome de todas
 // as propriedades do
-// protótipo de String e Array.
+// protótipo de String e Arra
 
 console.log(Object.getOwnPropertyNames(String.prototype));
 console.log(Object.getOwnPropertyNames(Array.prototype));
