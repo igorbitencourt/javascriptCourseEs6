@@ -35,7 +35,7 @@ const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
 const funcionamento = new Functionamento('[data-semana]', 'aberto');
-console.log(funcionamento);
+
 
 funcionamento.init();
 
