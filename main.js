@@ -142,7 +142,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return initFetchBitcoin; });\nfunction initFetchBitcoin() {\n  fetch('https://blockchain.info/ticker')\n    .then(response => response.json())\n    .then((bitcoin) => {\n      const btcPreco = document.querySelector('.btc-preco');\n      btcPreco.innerText = (1000 / bitcoin.BRL.sell).toFixed(4);\n    }).catch(erro => console.log(Error(erro)));\n}\n\n\n//# sourceURL=webpack:///./js/modules/fetch-bitcoin.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return fetchBitcoin; });\nfunction fetchBitcoin(url, target) {\n  fetch(url)\n    .then(response => response.json())\n    .then((bitcoin) => {\n      const btcPreco = document.querySelector(target);\n      btcPreco.innerText = (1000 / bitcoin.BRL.sell).toFixed(4);\n    }).catch(erro => console.log(Error(erro)));\n}\n\n\n//# sourceURL=webpack:///./js/modules/fetch-bitcoin.js?");
 
 /***/ }),
 
